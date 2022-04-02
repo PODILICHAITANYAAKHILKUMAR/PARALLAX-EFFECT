@@ -1,0 +1,54 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    width: 600px;
+    margin: auto;
+}
+.title {
+    font-size: 3em;
+    color:#fff;
+    background: #000;
+    padding: 20px;
+    text-align:center;
+}
+.parallax-img {
+    height: 600px;
+    margin: 30px auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.img1 {
+    background-image: url("https://raw.githubusercontent.com/code-architects/parallax-effect/main/img/mobile%20header.jpg");
+}
+.img2 {
+    background-image: url("https://raw.githubusercontent.com/code-architects/parallax-effect/main/img/mobile.jpg");
+}
+.img3 {
+    background-image: url("https://raw.githubusercontent.com/code-architects/parallax-effect/main/img/mobile%20header.jpg");
+}
+.img4 {
+    background-image: url("https://raw.githubusercontent.com/code-architects/parallax-effect/main/img/mobile.jpg");
+}
+.text {
+    letter-spacing: 0.5px;
+    text-align: justify;
+}
+footer {
+    margin-top: 30px;
+    padding: 20px;
+    background: #000;
+    color: #fff;
+    text-align: center;
+}
+footer a {
+    color: rgb(255, 42, 42);
+    text-decoration: none;
+}
